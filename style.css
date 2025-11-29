@@ -1,0 +1,116 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.pricing-box {
+    /* Content Area: Defined by width and height */
+    width: 300px; 
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding and border are included in the total width/height */
+
+    /* Padding: Space between content and border */
+    padding: 20px; 
+
+    /* Border: Visual line around the padding and content */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    /* Margin: Space outside the border, separating this box from others */
+    margin: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-box .header {
+    background-color: #00910c;
+    color: #fff;
+    padding: 15px 0;
+    margin: -20px -20px 20px -20px; /* Adjust margin to extend header to box edges */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.pricing-box .header2 {
+    background-color: #0600b0;
+    color: #fff;
+    padding: 15px 0;
+    margin: -20px -20px 20px -20px; /* Adjust margin to extend header to box edges */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.pricing-box .header3 {
+    background-color: #c94d00;
+    color: #fff;
+    padding: 15px 0;
+    margin: -20px -20px 20px -20px; /* Adjust margin to extend header to box edges */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.pricing-box h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.pricing-box .price {
+    font-size: 30px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.pricing-box .price .currency,
+.pricing-box .price .period {
+    font-size: 18px;
+    font-weight: normal;
+    color: #666;
+}
+
+.pricing-box .features {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.pricing-box .features li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    color: #555;
+}
+
+.pricing-box .features li:last-child {
+    border-bottom: none;
+}
+
+.pricing-box .cta-button {
+    background-color: #00910c;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.pricing-box .cta-button2 {
+    background-color: #0600b0;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.pricing-box .cta-button3 {
+    background-color: #c94d00;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
